@@ -3,9 +3,9 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "Dr. Jane Mwangi",
-    role: "Senior Lecturer, Computer Science",
-    company: "Kisii University",
+    name: "Harisson Opondo",
+    role: "Founder and CEO",
+    company: "Paragon Entreprises",
     image: "https://images.unsplash.com/photo-1494790108755-2616c36c35e3?w=100&h=100&fit=crop&crop=face",
     content: "Clinton consistently demonstrates exceptional problem-solving skills and a deep understanding of AI concepts. His projects show remarkable innovation and technical excellence.",
     rating: 5
