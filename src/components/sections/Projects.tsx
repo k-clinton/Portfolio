@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, ExternalLink, Sparkles, Zap, Brain } from 'lucide-react';
 
 const projects = [
