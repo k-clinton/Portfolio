@@ -16,7 +16,7 @@ const projects = [
     title: "E-Commerce Platform",
     description: "Ecoshop is a full-stack e-commerce solution with real-time inventory management, payment integration, and admin dashboard",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
+    tech: ["Next.js", "TypeScript", "Stripe", "MySQL"],
     github: "https://github.com/k-clinton/Ecoshop",
     live: "https://ecommerce-demo.vercel.app",
     featured: true,
