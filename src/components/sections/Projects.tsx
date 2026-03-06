@@ -7,17 +7,17 @@ const projects = [
     description: "AI-powered app that analyzes, summarizes and enables intelligent chat with any web page using advanced natural language processing",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
     tech: ["React", "OpenAI API", "Node.js", "Python", "LangChain"],
-    github: "https://github.com/ClintoKe/ContextIQ",
+    github: "https://github.com/k-clinton/ContextIQ",
     live: "https://context-iq-blush.vercel.app",
     featured: true,
     icon: <Brain className="w-6 h-6" />
   },
   {
     title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with real-time inventory management, payment integration, and admin dashboard",
+    description: "Ecoshop is a full-stack e-commerce solution with real-time inventory management, payment integration, and admin dashboard",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
     tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
-    github: "https://github.com/ClintoKe/ecommerce-platform",
+    github: "https://github.com/k-clinton/Ecoshop",
     live: "https://ecommerce-demo.vercel.app",
     featured: true,
     icon: <Zap className="w-6 h-6" />
@@ -27,17 +27,17 @@ const projects = [
     description: "Machine learning model for accurate weather prediction using historical data and advanced algorithms",
     image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
     tech: ["Python", "Scikit-learn", "Pandas", "Flask", "Chart.js"],
-    github: "https://github.com/ClintoKe/weather-prediction-ml",
+    github: "https://github.com/k-clinton/weather-prediction-ml",
     live: "https://weather-ml-demo.herokuapp.com",
     featured: false,
     icon: <Sparkles className="w-6 h-6" />
   },
   {
     title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, team collaboration, and progress tracking",
+    description: "Smart Task is a Collaborative task management application with real-time updates, team collaboration, and progress tracking",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
     tech: ["React", "Socket.io", "Express.js", "MongoDB", "JWT"],
-    github: "https://github.com/ClintoKe/task-management",
+    github: "https://github.com/k-clinton/Smart-Task",
     live: "https://task-manager-demo.netlify.app",
     featured: false,
     icon: <Zap className="w-6 h-6" />
@@ -47,7 +47,7 @@ const projects = [
     description: "Responsive personal portfolio website showcasing projects, skills, and professional experience with modern design",
     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
     tech: ["React", "TypeScript", "TailwindCSS", "Vite", "Vercel"],
-    github: "https://github.com/ClintoKe/portfolio",
+    github: "https://github.com/k-clinton/portfolio",
     featured: false,
     icon: <Sparkles className="w-6 h-6" />
   },
@@ -56,7 +56,7 @@ const projects = [
     description: "Real-time chat application with end-to-end encryption, file sharing, and group messaging capabilities",
     image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=600&h=400&fit=crop",
     tech: ["React", "Socket.io", "Node.js", "Redis", "WebRTC"],
-    github: "https://github.com/ClintoKe/chat-app",
+    github: "https://github.com/k-clinton/chat-app",
     live: "https://chat-demo.netlify.app",
     featured: false,
     icon: <Zap className="w-6 h-6" />
@@ -91,7 +91,7 @@ export default function Projects() {
                     Featured
                   </div>
                 </div>
-                
+
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
@@ -100,7 +100,7 @@ export default function Projects() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-                
+
                 <div className="p-8">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg text-white">
@@ -108,9 +108,9 @@ export default function Projects() {
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{project.title}</h3>
                   </div>
-                  
+
                   <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">{project.description}</p>
-                  
+
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.tech.map((tech, i) => (
                       <span
@@ -121,7 +121,7 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div className="flex gap-4">
                     <a
                       href={project.github}
@@ -161,7 +161,7 @@ export default function Projects() {
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
-                
+
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">
                     <div className="p-1.5 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-md text-white">
@@ -169,9 +169,9 @@ export default function Projects() {
                     </div>
                     <h4 className="text-xl font-semibold text-gray-900 dark:text-white">{project.title}</h4>
                   </div>
-                  
+
                   <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">{project.description}</p>
-                  
+
                   <div className="flex flex-wrap gap-1 mb-4">
                     {project.tech.slice(0, 3).map((tech, i) => (
                       <span
@@ -187,7 +187,7 @@ export default function Projects() {
                       </span>
                     )}
                   </div>
-                  
+
                   <div className="flex gap-3">
                     <a
                       href={project.github}
