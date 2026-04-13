@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Instagram, Mail, Twitter, Linkedin, Youtube, Send } from 'lucide-react';
+import { Instagram, Mail, Twitter, Linkedin, Youtube, Send, Github } from 'lucide-react';
 import { SOCIAL_LINKS } from '../../utils/constants';
 
 export default function Contact() {
@@ -125,11 +125,8 @@ export default function Contact() {
             <div className="card p-5">
               <h3 className="text-sm font-semibold text-white mb-3">My Socials</h3>
               <div className="flex items-center gap-4">
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                  <Instagram className="w-5 h-5" />
-                </a>
-                <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-gray-400 hover:text-purple-400 transition-colors">
-                  <Mail className="w-5 h-5" />
+                <a href={SOCIAL_LINKS.github} className="text-gray-400 hover:text-purple-400 transition-colors">
+                  <Github className="w-5 h-5" />
                 </a>
                 <a href={SOCIAL_LINKS.twitter} className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Twitter className="w-5 h-5" />
@@ -138,7 +135,10 @@ export default function Contact() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                  <Youtube className="w-5 h-5" />
+                  <Instagram className="w-5 h-5" />
+                </a>
+                <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-gray-400 hover:text-purple-400 transition-colors">
+                  <Mail className="w-5 h-5" />
                 </a>
               </div>
             </div>
