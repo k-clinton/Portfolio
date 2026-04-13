@@ -11,7 +11,7 @@ const skillGroups = [
   },
   {
     title: "AI & Tools",
-    skills: ["TensorFlow", "PyTorch", "Docker", "AWS", "Git"]
+    skills: ["TensorFlow", "PyTorch", "Docker", "Git"]
   }
 ];
 
