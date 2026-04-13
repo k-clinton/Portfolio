@@ -52,39 +52,39 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {/* Left - Contact Form */}
           <div className="card p-6">
-            <h3 className="text-sm font-semibold text-white mb-5">Send me a message</h3>
+            <h3 className="text-sm font-semibold text-text-primary mb-5">Send me a message</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="block text-xs text-gray-400 mb-1.5">Name</label>
+                <label className="block text-xs text-text-muted mb-1.5">Name</label>
                 <input
                   type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-[#0a0a0a] border border-gray-700 rounded-lg text-white text-sm focus:border-purple-500 focus:outline-none transition-colors"
+                  className="w-full px-4 py-2 bg-background-secondary border border-border rounded-lg text-text-primary text-sm focus:border-purple-500 focus:outline-none transition-colors"
                 />
               </div>
               <div>
-                <label className="block text-xs text-gray-400 mb-1.5">Email</label>
+                <label className="block text-xs text-text-muted mb-1.5">Email</label>
                 <input
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-[#0a0a0a] border border-gray-700 rounded-lg text-white text-sm focus:border-purple-500 focus:outline-none transition-colors"
+                  className="w-full px-4 py-2 bg-background-secondary border border-border rounded-lg text-text-primary text-sm focus:border-purple-500 focus:outline-none transition-colors"
                 />
               </div>
               <div>
-                <label className="block text-xs text-gray-400 mb-1.5">Message</label>
+                <label className="block text-xs text-text-muted mb-1.5">Message</label>
                 <textarea
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   required
                   rows={3}
-                  className="w-full px-4 py-2 bg-[#0a0a0a] border border-gray-700 rounded-lg text-white text-sm focus:border-purple-500 focus:outline-none transition-colors resize-none"
+                  className="w-full px-4 py-2 bg-background-secondary border border-border rounded-lg text-text-primary text-sm focus:border-purple-500 focus:outline-none transition-colors resize-none"
                 />
               </div>
               <button
@@ -109,11 +109,11 @@ export default function Contact() {
           <div className="space-y-4">
             {/* Open to opportunities card */}
             <div className="card p-6">
-              <p className="text-sm text-gray-400 leading-relaxed">
-                I'm always open to discussing new opportunities, creative projects, or partnerships. 
+              <p className="text-sm text-text-secondary leading-relaxed">
+                I'm always open to discussing new opportunities, creative projects, or partnerships.
                 Whether you have a specific project in mind or just want to explore possibilities, I'd love to connect.
               </p>
-              <ul className="mt-4 space-y-2 text-sm text-gray-300">
+              <ul className="mt-4 space-y-2 text-sm text-text-secondary">
                 <li>• Web & Mobile Development</li>
                 <li>• UI/UX Design</li>
                 <li>• Technical Consulting</li>
@@ -123,21 +123,21 @@ export default function Contact() {
 
             {/* Socials card */}
             <div className="card p-5">
-              <h3 className="text-sm font-semibold text-white mb-3">My Socials</h3>
+              <h3 className="text-sm font-semibold text-text-primary mb-3">My Socials</h3>
               <div className="flex items-center gap-4">
-                <a href={SOCIAL_LINKS.github} className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.github} className="text-text-muted hover:text-purple-400 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href={SOCIAL_LINKS.twitter} className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.twitter} className="text-text-muted hover:text-purple-400 transition-colors">
                   <Twitter className="w-5 h-5" />
                 </a>
-                <a href={SOCIAL_LINKS.linkedin} className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.linkedin} className="text-text-muted hover:text-purple-400 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.instagram} className="text-text-muted hover:text-purple-400 transition-colors">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-text-muted hover:text-purple-400 transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
