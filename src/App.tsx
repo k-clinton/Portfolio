@@ -6,6 +6,7 @@ import Skills from './components/sections/Skills';
 import Experience from './components/sections/Experience';
 import Projects from './components/sections/Projects';
 import Testimonials from './components/sections/Testimonials';
+import Blog from './components/sections/Blog';
 import Contact from './components/sections/Contact';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Experience />
       <Projects />
       <Testimonials />
+      <Blog />
       <Contact />
       {/* Minimal Footer */}
       <footer className="border-t border-gray-900 py-6 text-center">
