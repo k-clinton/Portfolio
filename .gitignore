@@ -27,3 +27,4 @@ node_modules
 .bolt/
 .github/workflows/
 .vite/deps/
+.qwen
