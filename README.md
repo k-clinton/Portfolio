@@ -18,12 +18,15 @@ Visit the live portfolio: [https://clintoke.github.io/Portfolio/](https://clinto
 ## ✨ Features
 
 - 🎨 **Modern Design** - Clean, professional, and responsive layout
-- 🌙 **Dark/Light Theme** - Theme toggle with system preference detection
+- 🌙 **Dark Theme** - Elegant dark color scheme with purple accents
 - 📱 **Mobile Responsive** - Optimized for all device sizes
 - ⚡ **Fast Performance** - Optimized build with Vite
-- 🎯 **Interactive Animations** - Smooth transitions and hover effects
-- 📧 **Contact Form** - Integrated contact section
-- 🔗 **Social Links** - Easy access to professional profiles
+- 🎯 **Interactive Animations** - Smooth transitions and hover effects throughout
+- 💼 **Projects Showcase** - Grid layout with project cards and live demos
+- 💬 **Client Testimonials** - Section highlighting client feedback
+- 📝 **Blog Section** - Latest posts with categories and read times
+- 📧 **Contact Form** - Integrated contact form with Web3Forms
+- 🔗 **Social Links** - GitHub, Twitter/X, LinkedIn, Instagram, and email
 
 ## 📂 Project Structure
 
@@ -74,6 +77,8 @@ The theme system supports both light and dark modes with automatic system prefer
 ### Content Updates
 - **Personal Information**: Update in `src/utils/constants.ts`
 - **Projects**: Modify the projects array in `src/components/sections/Projects.tsx`
+- **Testimonials**: Edit testimonials in `src/components/sections/Testimonials.tsx`
+- **Blog Posts**: Update blog posts in `src/components/sections/Blog.tsx`
 - **Skills**: Update skills in `src/components/sections/Skills.tsx`
 - **Experience**: Edit experience data in `src/components/sections/Experience.tsx`
 
