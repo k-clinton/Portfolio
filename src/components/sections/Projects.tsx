@@ -47,7 +47,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="border-y border-gray-800">
+    <section id="projects" className="border-y border-border">
       <div className="section-container">
         <div className="text-center mb-10">
           <h2 className="section-title">My Projects</h2>
@@ -70,8 +70,8 @@ export default function Projects() {
 
               {/* Content */}
               <div className="p-4">
-                <h3 className="text-sm font-semibold text-white mb-1">{project.title}</h3>
-                <p className="text-xs text-gray-400 mb-3 line-clamp-2">{project.description}</p>
+                <h3 className="text-sm font-semibold text-text-primary mb-1">{project.title}</h3>
+                <p className="text-xs text-text-muted mb-3 line-clamp-2">{project.description}</p>
 
                 {/* Tech Tags */}
                 <div className="flex flex-wrap gap-1.5 mb-4">

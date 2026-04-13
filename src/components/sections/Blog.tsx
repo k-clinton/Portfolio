@@ -37,7 +37,7 @@ const blogPosts = [
 
 export default function Blog() {
   return (
-    <section id="blog" className="border-b border-gray-800">
+    <section id="blog" className="border-b border-border">
       <div className="section-container">
         <div className="text-center mb-10">
           <h2 className="section-title">Latest Blog Posts</h2>
@@ -65,7 +65,7 @@ export default function Blog() {
 
               {/* Content */}
               <div className="p-5">
-                <div className="flex items-center gap-4 text-xs text-gray-500 mb-3">
+                <div className="flex items-center gap-4 text-xs text-text-muted mb-3">
                   <div className="flex items-center gap-1">
                     <Calendar className="w-3.5 h-3.5" />
                     <span>{post.date}</span>
@@ -76,10 +76,10 @@ export default function Blog() {
                   </div>
                 </div>
 
-                <h3 className="text-sm font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
+                <h3 className="text-sm font-semibold text-text-primary mb-2 group-hover:text-purple-400 transition-colors">
                   {post.title}
                 </h3>
-                <p className="text-xs text-gray-400 leading-relaxed mb-4">
+                <p className="text-xs text-text-secondary leading-relaxed mb-4">
                   {post.excerpt}
                 </p>
 

@@ -10,17 +10,17 @@ export default function Hero() {
         </div>
 
         {/* Name */}
-        <h1 className="text-6xl md:text-7xl font-bold text-white mb-4">
+        <h1 className="text-6xl md:text-7xl font-bold text-text-primary mb-4">
           Hey! , I am <span className="text-purple-500">Clinton</span>
         </h1>
 
         {/* Title */}
-        <h2 className="text-3xl md:text-4xl font-semibold text-gray-300 mb-8">
+        <h2 className="text-3xl md:text-4xl font-semibold text-text-secondary mb-8">
           AI Engineer & Full-Stack Developer
         </h2>
 
         {/* Description */}
-        <p className="text-gray-400 max-w-2xl mx-auto mb-10 text-base leading-relaxed">
+        <p className="text-text-muted max-w-2xl mx-auto mb-10 text-base leading-relaxed">
           I craft beautiful, functional digital experiences that bring ideas to life.
           Specializing in modern web development and user-centered design.
         </p>

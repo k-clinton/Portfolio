@@ -44,9 +44,9 @@ export default function Experience() {
 
                   {/* Content */}
                   <div className="card p-5 flex-1">
-                    <h3 className="text-sm font-semibold text-white">{exp.title}</h3>
+                    <h3 className="text-sm font-semibold text-text-primary">{exp.title}</h3>
                     <p className="text-xs text-purple-400 mb-2">at {exp.company}</p>
-                    <p className="text-xs text-gray-400 leading-relaxed">{exp.description}</p>
+                    <p className="text-xs text-text-muted leading-relaxed">{exp.description}</p>
                   </div>
                 </div>
               ))}

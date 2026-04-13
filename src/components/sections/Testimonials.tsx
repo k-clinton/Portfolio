@@ -23,7 +23,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="border-b border-gray-800">
+    <section id="testimonials" className="border-b border-border">
       <div className="section-container">
         <div className="text-center mb-10">
           <h2 className="section-title">Client Testimonials</h2>
@@ -36,18 +36,18 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="card p-5 transition-all duration-300 hover:border-purple-500/50 hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/10">
               <Quote className="w-6 h-6 text-purple-500/40 mb-3 transition-colors duration-300 group-hover:text-purple-400" />
-              <p className="text-xs text-gray-400 leading-relaxed mb-4 italic">
+              <p className="text-xs text-text-secondary leading-relaxed mb-4 italic">
                 "{testimonial.content}"
               </p>
               <div className="flex items-center gap-3">
                 <img
                   src={testimonial.avatar}
                   alt={testimonial.name}
-                  className="w-10 h-10 rounded-full object-cover border border-gray-700 transition-transform duration-300 hover:scale-110"
+                  className="w-10 h-10 rounded-full object-cover border border-border transition-transform duration-300 hover:scale-110"
                 />
                 <div>
-                  <h4 className="text-xs font-semibold text-white">{testimonial.name}</h4>
-                  <p className="text-[10px] text-gray-500">{testimonial.role}</p>
+                  <h4 className="text-xs font-semibold text-text-primary">{testimonial.name}</h4>
+                  <p className="text-[10px] text-text-muted">{testimonial.role}</p>
                 </div>
               </div>
             </div>

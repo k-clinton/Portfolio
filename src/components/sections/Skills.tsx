@@ -23,7 +23,7 @@ export default function Skills() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
           {skillGroups.map((group, index) => (
             <div key={index} className="card p-5">
-              <h3 className="text-sm font-semibold text-white mb-3">{group.title}</h3>
+              <h3 className="text-sm font-semibold text-text-primary mb-3">{group.title}</h3>
               <div className="flex flex-wrap gap-2">
                 {group.skills.map((skill, i) => (
                   <span key={i} className="badge">

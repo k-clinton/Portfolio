@@ -7,7 +7,7 @@ export default function About() {
         <h2 className="section-title">About Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-8">
           {/* Left - Text */}
-          <div className="space-y-4 text-sm text-gray-400 leading-relaxed">
+          <div className="space-y-4 text-sm text-text-secondary leading-relaxed">
             <p>
               I'm a passionate creative developer and designer with over 3 years of experience 
               building digital products that users love. I believe in the power of good design 
@@ -29,7 +29,7 @@ export default function About() {
               <img
                 src="https://i.postimg.cc/Dw0x3Jgx/IMG-20250605-231551-994.webp"
                 alt="Clinton Omondi"
-                className="relative w-72 h-72 md:w-80 md:h-80 rounded-full object-cover border-2 border-gray-700 transition-all duration-300 hover:scale-105 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20"
+                className="relative w-72 h-72 md:w-80 md:h-80 rounded-full object-cover border-2 border-border transition-all duration-300 hover:scale-105 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20"
               />
             </div>
           </div>
