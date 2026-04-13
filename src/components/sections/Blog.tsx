@@ -31,7 +31,7 @@ const blogPosts = [
     date: "Dec 5, 2024",
     readTime: "4 min read",
     category: "Design",
-    image: "https://images.unsplash.com/photo-1586717799252-bd9fbde3176c?w=600&h=300&fit=crop&auto=format"
+    image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=300&fit=crop&auto=format"
   }
 ];
 
