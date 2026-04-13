@@ -29,7 +29,7 @@ export default function About() {
               <img
                 src="https://i.postimg.cc/Dw0x3Jgx/IMG-20250605-231551-994.webp"
                 alt="Clinton Omondi"
-                className="relative w-64 h-64 md:w-72 md:h-72 rounded-full object-cover border-2 border-gray-700"
+                className="relative w-72 h-72 md:w-80 md:h-80 rounded-full object-cover border-2 border-gray-700 transition-all duration-300 hover:scale-105 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20"
               />
             </div>
           </div>
