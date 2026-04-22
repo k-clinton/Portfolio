@@ -76,14 +76,14 @@ export default function Blog() {
                   </div>
                 </div>
 
-                <h3 className="text-sm font-semibold text-text-primary mb-2 group-hover:text-purple-400 transition-colors">
+                <h3 className="text-sm font-semibold text-text-primary mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
                   {post.title}
                 </h3>
                 <p className="text-xs text-text-secondary leading-relaxed mb-4">
                   {post.excerpt}
                 </p>
 
-                <button className="inline-flex items-center gap-1.5 text-xs font-medium text-purple-400 hover:text-purple-300 transition-colors">
+                <button className="inline-flex items-center gap-1.5 text-xs font-medium text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
                   Read More
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </button>
