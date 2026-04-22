@@ -94,13 +94,13 @@ export default function Projects() {
                   </a>
                   <a
                     href={project.live}
-                    className="w-7 h-7 rounded-full border border-gray-600 flex items-center justify-center text-gray-400 hover:text-purple-400 hover:border-purple-400 transition-colors"
+                    className="w-7 h-7 rounded-full border border-gray-300 dark:border-gray-600 flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 hover:border-purple-600 dark:hover:border-purple-400 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <ExternalLink className="w-3 h-3" />
                   </a>
-                  <div className="w-7 h-7 rounded-full border border-gray-600"></div>
+                  <div className="w-7 h-7 rounded-full border border-gray-300 dark:border-gray-600"></div>
                 </div>
               </div>
             </div>
