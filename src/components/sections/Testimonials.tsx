@@ -35,7 +35,7 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="card p-5 transition-all duration-300 hover:border-purple-500/50 hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/10">
-              <Quote className="w-6 h-6 text-purple-500/40 mb-3 transition-colors duration-300 group-hover:text-purple-400" />
+              <Quote className="w-6 h-6 text-purple-600/40 dark:text-purple-500/40 mb-3 transition-colors duration-300 group-hover:text-purple-600 dark:group-hover:text-purple-400" />
               <p className="text-xs text-text-secondary leading-relaxed mb-4 italic">
                 "{testimonial.content}"
               </p>
