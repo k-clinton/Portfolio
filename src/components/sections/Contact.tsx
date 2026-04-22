@@ -125,19 +125,19 @@ export default function Contact() {
             <div className="card p-5">
               <h3 className="text-sm font-semibold text-text-primary mb-3">My Socials</h3>
               <div className="flex items-center gap-4">
-                <a href={SOCIAL_LINKS.github} className="text-text-muted hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.github} className="text-text-muted hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href={SOCIAL_LINKS.twitter} className="text-text-muted hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.twitter} className="text-text-muted hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                   <Twitter className="w-5 h-5" />
                 </a>
-                <a href={SOCIAL_LINKS.linkedin} className="text-text-muted hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.linkedin} className="text-text-muted hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href={SOCIAL_LINKS.instagram} className="text-text-muted hover:text-purple-400 transition-colors">
+                <a href={SOCIAL_LINKS.instagram} className="text-text-muted hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-text-muted hover:text-purple-400 transition-colors">
+                <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-text-muted hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
