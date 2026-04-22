@@ -34,18 +34,18 @@ export default function Experience() {
 
             <div className="space-y-8">
               {experiences.map((exp, index) => (
-                <div key={index} className="flex gap-6">
+                <div key={index} className="flex gap-6 group">
                   {/* Dot */}
                   <div className="flex-shrink-0 relative z-10">
-                    <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center text-xs font-semibold text-white">
+                    <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center text-xs font-semibold text-white transition-transform duration-300 group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(147,51,234,0.5)]">
                       {exp.year}
                     </div>
                   </div>
 
                   {/* Content */}
-                  <div className="card p-5 flex-1">
+                  <div className="card p-5 flex-1 transition-all duration-300 group-hover:border-purple-500/50 group-hover:-translate-y-1 group-hover:shadow-lg group-hover:shadow-purple-500/10">
                     <h3 className="text-sm font-semibold text-text-primary">{exp.title}</h3>
-                    <p className="text-xs text-purple-400 mb-2">at {exp.company}</p>
+                    <p className="text-xs text-purple-600 dark:text-purple-400 mb-2">at {exp.company}</p>
                     <p className="text-xs text-text-muted leading-relaxed">{exp.description}</p>
                   </div>
                 </div>
