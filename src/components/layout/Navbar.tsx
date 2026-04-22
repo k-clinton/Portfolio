@@ -29,8 +29,7 @@ export default function Navbar() {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-sm text-text-muted hover:text-purple-400 transition-colors"
-              >
+                className="text-sm text-text-muted hover:text-purple-600 dark:hover:text-purple-400 transition-colors"              >
                 {item.label}
               </a>
             ))}
@@ -78,7 +77,7 @@ export default function Navbar() {
               <a
                 key={item.label}
                 href={item.href}
-                className="block text-sm text-text-muted hover:text-purple-400 transition-colors"
+                className="block text-sm text-text-muted hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
