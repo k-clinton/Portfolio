@@ -2,10 +2,10 @@ import React from 'react';
 
 const experiences = [
   {
-    year: "2024",
-    title: "Research Assistant",
-    company: "AI Research Lab, Kisii University",
-    description: "Researching machine learning applications in educational technology and developing predictive models for student performance analysis."
+    year: "2025",
+    title: "Software Development Intern",
+    company: "Tech Solutions Kenya",
+    description: "Developed features for client management system using React and PHP, participated in code reviews and learned industry best practices."
   },
   {
     year: "2023",
@@ -13,12 +13,12 @@ const experiences = [
     company: "Freelance",
     description: "Built 10+ responsive web applications for various clients, specializing in React, Node.js, and database integration."
   },
-  {
-    year: "2022",
-    title: "Software Development Intern",
-    company: "Tech Solutions Kenya",
-    description: "Developed features for client management system using React and PHP, participated in code reviews and learned industry best practices."
-  }
+   {
+    year: "2023",
+    title: "Research Assistant",
+    company: "AI Research Lab, Kisii University",
+    description: "Researching machine learning applications in educational technology and developing predictive models for student performance analysis."
+  },
 ];
 
 export default function Experience() {
