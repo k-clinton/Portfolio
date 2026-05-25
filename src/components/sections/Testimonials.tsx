@@ -8,16 +8,22 @@ const testimonials = [
     avatar: "https://i.pravatar.cc/100?img=1"
   },
   {
-    name: "Michael Chen",
-    role: "CTO, StartupHub",
+    name: "John Opiyo",
+    role: "Computer Science | Web Developer",
     content: "Working with Clinton was a great experience. He's not only technically proficient but also brings creative insights that significantly improved our product's user experience.",
     avatar: "https://i.pravatar.cc/100?img=2"
   },
   {
-    name: "Emily Rodriguez",
-    role: "Design Lead, Creative Agency",
+    name: "Harrison Opondo",
+    role: "Founder & CEO Paragon Entreprises",
     content: "Clinton's ability to bridge the gap between design and development is remarkable. He took our vision and brought it to life with pixel-perfect precision and smooth interactions.",
     avatar: "https://i.pravatar.cc/100?img=3"
+  },
+  {
+    name: "Mark Merlin",
+    role: "Frontend Developer",
+    content: "Working with Clinton was a great experience. Clinton also posses strong teamwork and leadership skills.",
+    avatar: "https://i.pravatar.cc/100?img=2"
   }
 ];
 
