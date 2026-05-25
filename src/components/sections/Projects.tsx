@@ -9,10 +9,10 @@ const projects = [
     live: "https://context-iq-blush.vercel.app"
   },
   {
-    title: "E-Commerce Platform",
+    title: "EcoShop - ECommerce Platform",
     description: "Full-stack e-commerce solution with real-time inventory management, payment integration, and admin dashboard",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop",
-    tech: ["Next.js", "TypeScript", "Stripe", "MySQL"],
+    tech: ["Next.js", "TypeScript", "Stripe","Node","MySQL"],
     live: "https://ecommerce-demo.vercel.app"
   },
   {
