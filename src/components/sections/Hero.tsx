@@ -37,7 +37,7 @@ export default function Hero() {
 
         {/* Name */}
         <h1 className="text-6xl md:text-7xl font-bold text-white mb-4">
-          Hey!, I am <span className="text-purple-500">Clinton</span>
+          Hey! I am <span className="text-purple-500">Clinton</span>
         </h1>
 
         {/* Title */}
