@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://k-clinton.github.io/</loc>
+    <loc>https://k-clinton.github.io/Portfolio/</loc>
+    <loc>https://k-clinton.github.io/Portfolio/#projects</loc>
+    <loc>https://k-clinton.github.io/Portfolio/#about</loc>
+    <loc>https://k-clinton.github.io/Portfolio/#contact</loc>
   </url>
 </urlset>
