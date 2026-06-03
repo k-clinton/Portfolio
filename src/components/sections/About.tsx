@@ -28,7 +28,7 @@ export default function About() {
               <div className="absolute inset-0 bg-purple-500/20 blur-2xl rounded-full"></div>
               <img
                 src="https://i.postimg.cc/Dw0x3Jgx/IMG-20250605-231551-994.webp"
-                alt="Clinton Omondi"
+                alt="Clinton Omondi | AI Engineer & Full-Stack Developer"
                 className="relative w-72 h-72 md:w-80 md:h-80 rounded-full object-cover border-2 border-border transition-all duration-300 hover:scale-105 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/20"
               />
             </div>
