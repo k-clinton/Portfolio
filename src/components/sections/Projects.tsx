@@ -13,14 +13,15 @@ const projects = [
     description: "Full-stack e-commerce solution with real-time inventory management, payment integration, and admin dashboard",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop",
     tech: ["Next.js", "TypeScript", "Stripe","Node","MySQL"],
-    live: "https://ecommerce-demo.vercel.app"
+    live: "https://ecommerce-demo.vercel.app",
   },
   {
     title: "Weather Prediction ML",
     description: "Machine learning model for accurate weather prediction using historical data and advanced algorithms",
     image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=300&fit=crop",
     tech: ["Python", "Scikit-learn", "Pandas", "Flask"],
-    live: "#"
+    live: "https://weather-prediction-ml-o6gn.onrender.com",
+    repo: "https://github.com/k-clinton/Weather-Prediction-ML"
   },
   {
     title: "Task Management App",
