@@ -6,7 +6,8 @@ const projects = [
     description: "AI-powered app that analyzes, summarizes and enables intelligent chat with any web page using advanced natural language processing",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=300&fit=crop",
     tech: ["React", "OpenAI API", "Node.js", "Python"],
-    live: "https://context-iq-blush.vercel.app"
+    live: "https://context-iq-blush.vercel.app",
+    repo: "https://github.com/k-clinton/ContextIQ"
   },
   {
     title: "EcoShop - ECommerce Platform",
@@ -14,6 +15,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop",
     tech: ["Next.js", "TypeScript", "Stripe","Node","MySQL"],
     live: "https://ecommerce-demo.vercel.app",
+    repo: "https://github.com/k-clinton/EcoShop"
   },
   {
     title: "Weather Prediction ML",
@@ -28,21 +30,24 @@ const projects = [
     description: "Collaborative task management application with real-time updates, team collaboration, and progress tracking",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop",
     tech: ["React", "Socket.io", "Express.js", "MongoDB"],
-    live: "#"
+    live: "#",
+    repo: "https://github.com/k-clinton/Smart-Task"
   },
   {
     title: "Portfolio Website",
     description: "Responsive personal portfolio website showcasing projects, skills, and professional experience with modern design",
     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=300&fit=crop",
     tech: ["React", "TypeScript", "TailwindCSS", "Vite"],
-    live: "#"
+    live: "#",
+    repo: "https://github.com/k-clinton/Portfolio"
   },
   {
     title: "Chat Application",
     description: "Real-time chat application with end-to-end encryption, file sharing, and group messaging capabilities",
     image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=600&h=300&fit=crop",
     tech: ["React", "Socket.io", "Node.js", "Redis"],
-    live: "#"
+    live: "#",
+    repo: "https://github.com/k-clinton"
   }
 ];
 
@@ -86,12 +91,12 @@ export default function Projects() {
                 {/* Action Buttons */}
                 <div className="flex items-center gap-2">
                   <a
-                    href={project.live}
+                    href={project.repo}
                     className="inline-flex items-center px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white text-xs font-medium rounded-full transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    View Details
+                    View Repo
                   </a>
                   <a
                     href={project.live}
