@@ -2,9 +2,9 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This portfolio showcases my projects, skills, and professional experience as a software developer.
 
-## 🚀 Live Demo
+## 🚀 Live
 
-Visit the live portfolio: [https://clintoke.github.io/Portfolio/](https://clintoke.github.io/Portfolio/)
+Visit the live portfolio: [https://clintoke.github.io/Portfolio/](https://k-clinton.github.io/Portfolio/)
 
 ## 🛠️ Built With
 
@@ -111,7 +111,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-Clinton Omondi - [GitHub](https://github.com/ClintoKe)
+Clinton Omondi - [GitHub](https://github.com/k-clinton)
 
 Project Link: [https://github.com/ClintoKe/Portfolio](https://github.com/ClintoKe/Portfolio)
 
